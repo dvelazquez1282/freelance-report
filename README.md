@@ -25,3 +25,21 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+## Roadmap
+[] - Install JSON server
+[] - Add lazy module for Time
+    [] - Add mockup data for Time entity
+    [] - Add page for Time entity
+    [] - Add route for Time entity Page    
+    [] - Add table for Time entity
+    [] - Add creation form for Time entity
+    [] - Add edition form for Time entity
+    [] - Add delete action for Time entity
+    [] - Add filter by client for Time entity table
+[] - Authentication
+    [] - Login page
+    [] - Login guard
+    [] - Token and user data management
