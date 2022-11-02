@@ -29,9 +29,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ## Roadmap
-[X] - Install JSON server
+[x] - Install JSON server
 [~] - Add lazy module for Time
-    [] - Add mockup data for Time entity
+    [x] - Add mockup data for Time entity
     [] - Add page for Time entity
     [] - Add route for Time entity Page    
     [] - Add table for Time entity

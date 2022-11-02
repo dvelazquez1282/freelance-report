@@ -7,5 +7,59 @@
             "lastname": "Doe",
             "password": "$2a$12$z2a/1ZX6cu8xlIjPiGS2ye6Dutg8VlnJedFBXyspRTdFQJfgP5t1i"
         }        
+    ],
+    "type": [
+        {
+            "id": 1,
+            "title": "Redmine"
+        },
+        {
+            "id": 2,
+            "title": "Jira"
+        },
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": "Project 1"
+        },
+        {
+            "id": 2,
+            "title": "Project 2"
+        },
+        {
+            "id": 3,
+            "title": "Project 3"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "title": "Bloonde"
+        },
+        {
+            "id": 2,
+            "title": "BigCaptain"
+        }
+    ],
+    "tasks": [
+        {
+            "id": 1,
+            "time": 60,
+            "task": "https://www.google.es",
+            "description": "Complicaciones en el desplegue.",            
+            "created_at": "2022-10-21 00:00:00",
+            "customer_id": 1,
+            "type_id": 1
+        },
+        {
+            "id": 2,
+            "time": 45,
+            "task": "https://www.google.es",
+            "description": "He tenido muchos errores.",                        
+            "created_at": "2022-10-21 00:00:00",
+            "customer_id": 1,
+            "type_id": 2
+        }        
     ]
 }
