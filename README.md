@@ -32,6 +32,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 [x] - Install JSON server
 [~] - Add lazy module for Time
     [x] - Add mockup data for Time entity
+    [x] - Add Time entity module
     [] - Add page for Time entity
     [] - Add route for Time entity Page    
     [] - Add table for Time entity
