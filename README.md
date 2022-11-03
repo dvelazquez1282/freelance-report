@@ -33,7 +33,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 [~] - Add lazy module for Time
     [x] - Add mockup data for Time entity
     [x] - Add Time entity module
-    [] - Add page for Time entity
+    [x] - Add page for Time entity
     [] - Add route for Time entity Page    
     [] - Add table for Time entity
     [] - Add creation form for Time entity
@@ -44,3 +44,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     [] - Login page
     [] - Login guard
     [] - Token and user data management
+
+
+
+## Help Commands
+- ng generate component timing/pages/timming --module=timing
