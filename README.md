@@ -40,6 +40,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     [] - Add edition form for Time entity
     [] - Add delete action for Time entity
     [] - Add filter by client for Time entity table
+    [] - Inject the Time api routes from the module in the main module route helper
 [] - Authentication
     [] - Login page
     [] - Login guard
