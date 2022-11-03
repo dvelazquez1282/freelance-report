@@ -34,7 +34,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     [x] - Add mockup data for Time entity
     [x] - Add Time entity module
     [x] - Add page for Time entity
-    [] - Add route for Time entity Page    
+    [x] - Add route for Time entity Page    
     [] - Add table for Time entity
     [] - Add creation form for Time entity
     [] - Add edition form for Time entity
