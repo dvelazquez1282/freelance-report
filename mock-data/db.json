@@ -42,12 +42,13 @@
             "title": "BigCaptain"
         }
     ],
-    "timming": [
+    "timings": [
         {
             "id": 1,
             "time": 60,
             "task": "https://www.google.es",
             "description": "Complicaciones en el desplegue.",            
+            "date": "2022-10-21 00:00:00",
             "created_at": "2022-10-21 00:00:00",
             "customer_id": 1,
             "type_id": 1
@@ -55,8 +56,9 @@
         {
             "id": 2,
             "time": 45,
-            "task": "https://www.google.es",
+            "task": "https://www.google.es",            
             "description": "He tenido muchos errores.",                        
+            "date": "2022-10-21 00:00:00",
             "created_at": "2022-10-21 00:00:00",
             "customer_id": 1,
             "type_id": 2
