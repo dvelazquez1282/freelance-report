@@ -35,7 +35,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     [x] - Add Time entity module
     [x] - Add page for Time entity
     [x] - Add route for Time entity Page    
-    [] - Add table for Time entity
+    [~] - Add table for Time entity
     [] - Add creation form for Time entity
     [] - Add edition form for Time entity
     [] - Add delete action for Time entity
@@ -49,4 +49,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ## Help Commands
+- json-server --watch mock-data/db.json --routes mock-data/routes.json -m ./node_modules/json-server-auth
 - ng generate component timing/pages/timming --module=timing
+- ng generate class timing/models/timing --type=model
+- ng generate service services/timing
