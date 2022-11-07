@@ -8,8 +8,8 @@ export class ApiRoutes {
         timing: 'timings'
     }
 
-    public static getListTaskRoute(model: any) {
-        return ApiRoutes.getAPIHostRoute() + ApiRoutes.PREFIXES[model as keyof typeof ApiRoutes.PREFIXES];
+    public static getListRoute(model: any) {
+        return ApiRoutes.getAPIHostRoute() + "/" + ApiRoutes.PREFIXES[model as keyof typeof ApiRoutes.PREFIXES];
     }
 
 
