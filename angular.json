@@ -102,6 +102,37 @@
           }
         }
       }
+    },
+    "ngx-final-table": {
+      "projectType": "library",
+      "root": "projects/ngx-final-table",
+      "sourceRoot": "projects/ngx-final-table/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ngx-final-table/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-final-table/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ngx-final-table/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-final-table/src/test.ts",
+            "tsConfig": "projects/ngx-final-table/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-final-table/karma.conf.js"
+          }
+        }
+      }
     }
   }
 }
