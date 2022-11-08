@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { NgxFinalTableComponent } from './ngx-final-table.component';
 
@@ -8,6 +9,7 @@ import { NgxFinalTableComponent } from './ngx-final-table.component';
     NgxFinalTableComponent
   ],
   imports: [
+    CommonModule
   ],
   exports: [
     NgxFinalTableComponent
