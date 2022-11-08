@@ -42,13 +42,14 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     [] - Add filter by client for Time entity table
     [] - Inject the Time api routes from the module in the main module route helper
 [~] - Final table library
-    [X] - Add the first version of final table component with columns and rows based in a config
+    [x] - Add the first version of final table component with columns and rows based in a config
 [] - Authentication
     [] - Login page
     [] - Login guard
     [] - Token and user data management
 [] - Others
-    [] - Integrate bootstrap
+    [x] - Integrate bootstrap
+    [] - Integrate font awesome
     [] - Integrate a loading bar pluging
     [] - Integrate a notification pluging
 
