@@ -49,7 +49,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     [] - Token and user data management
 [] - Others
     [x] - Integrate bootstrap
-    [] - Integrate font awesome
+    [] - Integrate bootstrap icon
     [] - Integrate a loading bar pluging
     [] - Integrate a notification pluging
 
