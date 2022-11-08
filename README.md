@@ -43,6 +43,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     [] - Inject the Time api routes from the module in the main module route helper
 [~] - Final table library
     [x] - Add the first version of final table component with columns and rows based in a config
+[~] - Final form libray
+    [x] - Initialize the library
 [] - Authentication
     [] - Login page
     [] - Login guard
@@ -52,6 +54,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     [] - Integrate bootstrap icon
     [] - Integrate a loading bar pluging
     [] - Integrate a notification pluging
+    [] - Integrate translator plugin
 
 
 

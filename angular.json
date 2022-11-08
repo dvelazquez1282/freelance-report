@@ -133,6 +133,37 @@
           }
         }
       }
+    },
+    "ngx-final-form": {
+      "projectType": "library",
+      "root": "projects/ngx-final-form",
+      "sourceRoot": "projects/ngx-final-form/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ngx-final-form/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-final-form/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ngx-final-form/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-final-form/src/test.ts",
+            "tsConfig": "projects/ngx-final-form/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-final-form/karma.conf.js"
+          }
+        }
+      }
     }
   }
 }

@@ -12,6 +12,9 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "paths": {
+      "ngx-final-form": [
+        "dist/ngx-final-form"
+      ],
       "ngx-final-table": [
         "dist/ngx-final-table"
       ]
